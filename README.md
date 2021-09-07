@@ -10,6 +10,8 @@ python -m venv ./.env
 # for Windows user
 . ./.env/Scripts/activate
 pip install -r ./requirements.txt
+
+python -m simplifier -p .\example_data\lvl6.zip -s 0.01
 ```
 
 For Windows user:
